@@ -7,7 +7,7 @@ import sklearn
 
 st.header('Cars24 Price Prediction App', divider='rainbow')
 
-df = pd.read_csv('cars24-car-price.csv')
+# df = pd.read_csv('cars24-car-price.csv')
 
 # st.dataframe(df)
 
