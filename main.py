@@ -105,3 +105,7 @@ if st.button("Predict", type = "primary"):
     price = model_pred(year, seller_encoded,km_driven, fuel_encoded, transmission_encoded, mileage, engine, max_power, seats) * (10**5)
     price = round(price[0])
     st.success("Predicted Price is INR " + str(price))
+
+st.divider()
+st.write("This app uses a linear regression model to predict values based on the input features.")
+st.write("© 2024 Cars24.com. All rights reserved.")
